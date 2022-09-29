@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom" ;
 
 const Header = () => {
   return (
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
   {/* <!-- Container wrapper --> */}
   <div class="container-fluid">
     {/* <!-- Toggle button --> */}

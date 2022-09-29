@@ -3,7 +3,7 @@ import './home.css';
 
 const Projects = () => {
     return (
-        <div className='style bg-white'>
+        <div className='style bg-black'>
             <div className='container1 text-center'>
 
                 <h1>My Projects</h1>
@@ -16,7 +16,7 @@ const Projects = () => {
                             <div class="card-body card-height">
                                 <h5 class="card-title">1. Gym Landing Page</h5>
                                 <p class="card-text">Gym website landing page using HTML and CSS</p>
-                                <a href = "#">Github link</a>
+                                <a href = "">Github link</a>
                             </div>
                     </div>
                 </div>

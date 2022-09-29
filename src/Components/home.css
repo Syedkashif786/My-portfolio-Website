@@ -20,7 +20,7 @@
     font-size: 14px;
 }
 .container1{
-    color: #0e4b64;
+    color: #cef1ff;
     margin-bottom : 12px;
     padding: 8px;
 }
@@ -30,8 +30,17 @@
 }
 .card-height{
     height : 170px;
-
 }
+.card-height a{
+    position: absolute;
+    left : 30px;
+    bottom: 5px;
+    color: #24292f; 
+    font-weight:450;
+    text-decoration: underline;
+    /* #266804 */
+}
+
 
 .slide1{
     background-image: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8cHJvZ3JhbW1pbmcsY29kaW5nfHx8fHx8MTY2MzU4MzIzNw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500');
