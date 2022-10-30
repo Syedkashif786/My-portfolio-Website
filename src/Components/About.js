@@ -49,15 +49,15 @@ const About = () => {
                     <hr />
 
                     <div className='col-md-6'>
-                <img src="https://cdn-icons-png.flaticon.com/512/3080/3080467.png" alt="Technical Skill" />
-              </div>
-              <div className='image col-md-6'>
+                        <img src="https://cdn-icons-png.flaticon.com/512/3080/3080467.png" alt="Technical Skill" />
+                    </div>
+                    <div className='image col-md-6'>
 
-                <h2 className='fw-bold'>Technical Skill</h2>
+                        <h2 className='fw-bold'>Technical Skill</h2>
 
-                <li className='pt-2'><i class="fa-brands fa-java"></i> Java</li>
-                <li className='pt-2'><i class="fa-brands fa-html5"> HTML</i>, <i class="fa-brands fa-css3-alt"> CSS</i>, <i class="fa-brands fa-js"> JavaScript</i> </li>
-                <li className='pt-2'><i class="fa-brands fa-bootstrap"> Bootstrap</i> </li>
+                        <li className='pt-2'><i class="fa-brands fa-java"></i> Java</li>
+                        <li className='pt-2'><i class="fa-brands fa-html5"> HTML</i>, <i class="fa-brands fa-css3-alt"> CSS</i>, <i class="fa-brands fa-js"> JavaScript</i> </li>
+                        <li className='pt-2'><i class="fa-brands fa-bootstrap"> Bootstrap</i> </li>
                         <li className='pt-2'><img src="https://cdn4.iconfinder.com/data/icons/technology-83/1000/object_programming_development_oriented_developer_object-oriented_programming_software-512.png" alt="OOP Concept" />Object Oriented Programming </li>
                         <li className='pt-2'><img src="https://www.mangoitsolutions.com/wp-content/uploads/2022/01/becomeamernstackdeveloper-mobile-300x279.png" alt="MERN" /> MERN Stack</li>
                     </div>

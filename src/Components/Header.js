@@ -32,7 +32,7 @@ const Header = () => {
       </NavLink >
       {/* <!-- Left links --> */}
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item ps-3">
+      <li class="nav-item ps-3">
           <NavLink className = "nav-link" to = "/">Home</NavLink>
         </li>
 
