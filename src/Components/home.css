@@ -19,6 +19,13 @@
     margin: 5px 4px 0px 2px;
     font-size: 14px;
 }
+.container button a{
+    color : rgb(48, 32, 2);
+}
+.container button a:hover{
+    color : black;
+    background-color: rgb(255, 244, 224);
+}
 .container1{
     color: #cef1ff;
     margin-bottom : 12px;
@@ -40,15 +47,50 @@
     text-decoration: underline;
     /* #266804 */
 }
+/* overall section  */
+.section0{
+    background-color: rgb(255, 255, 255);
+}
+
+/* about  */
+.section2{
+    margin-top: 80px;
+}
+.section2 h1{
+    font-size: 4.0rem;
+}
+
+/* Project */
+.section3{
+    margin-top: 80px;
+}
+
+/* footer  */
+.section4 i{
+    padding-left: 14px;
+    color: black;
+}
+.section4{
+    padding-top: 100px;
+    background-color: #eae8e1; /* #f1f0eb */
+    color: black;
+    /* #ffb900 */
+}
+.section4 h2{
+    text-decoration: underline;
+}
+.foot{
+    padding-top: 90px;
+}
 
 
 .slide1{
     background-image: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8cHJvZ3JhbW1pbmcsY29kaW5nfHx8fHx8MTY2MzU4MzIzNw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500');
 }
 .slide2{
-    background-image: url('https://images.unsplash.com/photo-1618389041494-8fab89c3f22b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kaW5nLHByb2dyYW1tZXJ8fHx8fHwxNjYzNTgzMzMx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500');
+    background-image: url('https://images.unsplash.com/photo-1555066931-78c471f0d4ea?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8cHJvZ3JhbW1lcixjb2RlfHx8fHx8MTY2NTk0NjI3NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500')
 }
 .slide3{
-    background-image: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8cG9ydGZvbGlvLGNvZGVyfHx8fHx8MTY2MzU4MzQxOA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500');
+    background-image: url('https://images.unsplash.com/photo-1618389041494-8fab89c3f22b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kaW5nLHByb2dyYW1tZXJ8fHx8fHwxNjYzNTgzMzMx&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1500');
 }
 

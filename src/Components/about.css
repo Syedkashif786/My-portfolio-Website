@@ -1,0 +1,19 @@
+/* Title - Syed Kashif Haider  */
+.box1 h1{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+/* Profile Summary and all  */
+.container2 img{
+    height: 280px;
+    padding-left: 180px;
+}
+.comtainer h2,p,li{
+    font-size: 17px;
+}
+.image img{
+    height: 40px;
+    padding-left: 0px;
+}

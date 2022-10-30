@@ -23,17 +23,17 @@ const Header = () => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       {/* <!-- Navbar brand --> */}
        <NavLink class="navbar-brand mt-2 mt-lg-0" href="#">
-        <img
-          src="portfoliologo.png"
-          height="50"
+       <img
+          src="https://cdn.iconscout.com/icon/free/png-256/user-avatar-contact-portfolio-personal-portrait-profile-1-5182.png"
+          height="27"
           alt="Portfolio Logo"
           loading="lazy"
         />
       </NavLink >
       {/* <!-- Left links --> */}
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <NavLink className = "nav-link" to = "/home">Home</NavLink>
+        <li class="nav-item ps-3">
+          <NavLink className = "nav-link" to = "/">Home</NavLink>
         </li>
 
         <li class="nav-item">
@@ -44,31 +44,10 @@ const Header = () => {
           <NavLink className = "nav-link" to = "/projects">Projects</NavLink>
         </li>
       </ul>
-      {/* <!-- Left links --> */}
+      
     </div>
-    {/* <!-- Collapsible wrapper --> */}
-
-    {/* <!-- Right elements --> */}
+    
     <div class="d-flex align-items-center">
-      {/* <!-- Icon --> */}
-      {/* <NavLink class="text-reset me-3" href="#">
-        <i class="fas fa-shopping-cart"></i>
-      </NavLink> */}
-
-      {/* <!-- Notifications --> */}
-      <div class="dropdown">
-        <a
-          class="text-reset me-3 dropdown-toggle hidden-arrow"
-          href="#"
-          id="navbarDropdownMenuLink"
-          role="button"
-          data-mdb-toggle="dropdown"
-          aria-expanded="false"
-        >
-           <i class="fas fa-bell   " ></i>
-          <span class="badge rounded-pill badge-notification bg-danger">1</span>
-        </a>
-      </div>
       {/* <!-- Avatar --> */}
       <div class="dropdown">
         <a
@@ -80,10 +59,10 @@ const Header = () => {
           aria-expanded="false"
         >
           <img
-            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+            src="myprofilelogo.png"
             class="rounded-circle"
-            height="25"
-            alt="Black and White Portrait of a Man"
+            height="27"
+            alt="Green Portrait of a Man"
             loading="lazy"
           />
         </a>
@@ -92,13 +71,13 @@ const Header = () => {
           aria-labelledby="navbarDropdownMenuAvatar"
         >
           <li>
-            <a class = "dropdown-item" href = "#">My profile</a>
+            <a class = "dropdown-item" href = "http://localhost:3000/about">Resume</a>
           </li>
           <li>
-            <a class="dropdown-item" href = "#">Settings</a>
+            <a class="dropdown-item" href = "http://localhost:3000/projects">My Projects</a>
           </li>
           <li>
-            <a class="dropdown-item" href = "#">Logout</a>
+            <a class="dropdown-item" href = "http://localhost:3000/">Home</a>
           </li>
         </ul>
       </div>

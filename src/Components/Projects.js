@@ -71,8 +71,23 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <section className='section4 text-center mt-4'>
+                {/* <img src="portfoliologo.png" alt="logo" /> */}
+                <h2>PORTFOLIO</h2>
+                <h1 className='pt-2'>syedkashif.856@gmail.com</h1>
+
+                {/* <footer className='foot d-flex'> */}
+                    {/* Copyright &copy; All rights reserved  */}
+                    <p className='mt-5'>Stay Connected
+                        <a href="https://www.linkedin.com/in/syed-kashif-haider-99627518b/" target='_blank'><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/" target = '_blank'><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/login/" target = '_blank'><i class="fa-brands fa-facebook"></i></a>
+                    </p>
+                {/* </footer> */}
+
+            </section>
         </div>
     )
 }
 
-export default Projects
+export default Projects;
